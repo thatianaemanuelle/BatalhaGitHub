@@ -1,0 +1,107 @@
+body{
+
+    margin: 0px;
+    }
+    
+    .formulario, .index-resultado{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 650px;   
+    height: 500px;
+    border-radius:10px; 
+    background-image: linear-gradient(#6c55d3,rgb(139, 0, 116));
+    box-shadow: 5px 10px #0d0124;
+    margin-top: 40px;      
+    }
+
+    .container-batalha{
+     display: flex;
+     align-items: center;  
+     justify-content: center; 
+     height: 100vh;   
+     width: 100%;
+     flex-wrap: wrap;
+     background-image: url('./img/fundo.png');
+
+    }
+
+    .container-resultados{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;   
+     margin-top: 10px; 
+     height: 100vh; 
+     width: 100%;  
+     background-image: url('./img/fundo.png');
+     background-repeat: repeat;
+    }
+
+
+    #input-jogador-2, #input-jogador-1{
+    height: 30px;   
+    width: 150px; 
+    margin: 10px;
+    border-radius: 10px;
+    }
+    
+    #logo{
+     height: 100px;
+     border-radius:360px;  
+     /* margin-bottom: 60px;   */
+    }
+    #versus{
+    height: 40px;
+    margin-top:30px; 
+    }
+
+    .img-logo{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+    #chun-li,#img-personagem-2{
+    height: 140px;
+    }
+
+
+    #button-ok{
+     height: 30px; 
+     width: 200px;
+     border-radius: 5px; 
+     background-color: rgb(5, 17, 13);
+     font-weight: bold;
+     color: white;
+    }
+    
+    .button-teste, h1{
+    display: flex;
+    justify-content: center;   
+    margin-top:40px; 
+    }
+    
+    #jogador-1{ 
+    background-color: blue;
+    width: 205px;
+    /* height: 200px;   */
+    margin: 40px;  
+    }
+    
+    #jogador-2{
+    background-color:red;
+    width: 205px;
+    /* height: 100px; */
+    margin: 40px;    
+    }
+    
+    #tabela-jogador-1, #tabela-jogador-2, th, td{
+    border: 1px solid white; 
+    text-align: center;  
+    color: white;
+    }
+
+    table{
+    background-color: black;    
+    }
